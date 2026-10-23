@@ -8,7 +8,7 @@ echo   Repair .bat line endings (LF to CRLF)
 echo ============================================
 echo.
 
-set "NODE_EXE="
+set "NODE_EXE=D:\Program Files\nodejs\node.exe"
 set "CAND1=%USERPROFILE%\.workbuddy\binaries\node\versions\22.22.2-3\node.exe"
 if exist "%CAND1%" set "NODE_EXE=%CAND1%"
 if not defined NODE_EXE if exist "%USERPROFILE%\.workbuddy\binaries\node\versions\current\node.exe" set "NODE_EXE=%USERPROFILE%\.workbuddy\binaries\node\versions\current\node.exe"
