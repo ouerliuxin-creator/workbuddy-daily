@@ -9,7 +9,7 @@ echo ============================================
 echo.
 
 REM -- locate node.exe (prefer the one bundled with WorkBuddy) --
-set "NODE_EXE="
+set "NODE_EXE=D:\Program Files\nodejs\node.exe"
 set "NODE_VER=22.22.2-3"
 set "CAND1=%USERPROFILE%\.workbuddy\binaries\node\versions\%NODE_VER%\node.exe"
 if exist "%CAND1%" set "NODE_EXE=%CAND1%"
